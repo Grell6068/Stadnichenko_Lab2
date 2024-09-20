@@ -9,16 +9,18 @@ int main() {
     cout << "Введіть друге число: ";
     cin >> number2;
     
+    int save1 = number1;
+    int save2 = number2;
+    
     while (number1 != number2) {
         if (number1 > number2) {
             number1 = number1 - number2;
-        } 
-        else {
+        } else {
             number2 = number2 - number1;
         }
     }
     
-    int nsk = (number1 * number2 / number1);
+    int nsk = (save1 * save2)/number1;
     cout << nsk << endl;
     
     return 0;
