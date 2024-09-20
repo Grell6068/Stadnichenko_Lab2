@@ -21,7 +21,7 @@ int main() {
     }
     
     int nsk = (save1 * save2)/number1;
-    cout << nsk << endl;
+    cout << "НСК: " << nsk << endl;
     
     return 0;
 }
